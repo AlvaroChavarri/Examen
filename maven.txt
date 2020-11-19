@@ -1,0 +1,6 @@
+Primero para crear un proyecto maven lo que realizamos es dentro de nuestra cmd meter el siguiente comando:
+mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart
+Tras meter este comando nos pedira que introdujamos el groupId, artifactid, version, etc. Una vez completado eso, confirmamos
+y ya tenemos nuestro proyecto maven creado. 
+Tras tener todo el proyecto creado accedemos al pom y introducimos las dependecias segun nos lo pone dentro del enunciado, 
+por etiquetas dependencies.
